@@ -1,9 +1,8 @@
-# Homebrew formula for the killerz3/homebrew-tap repo.
-# On each release: update url to the new tag and sha256 to `shasum -a 256 ridealong.tgz`.
 class Ridealong < Formula
   desc "One logged-in browser for you and your AI agents"
   homepage "https://ridealong.kz3.dev/"
   url "https://github.com/killerz3/ridealong/releases/download/v0.5.0/ridealong.tgz"
+  version "0.5.0"
   sha256 "9a58d4e86c07b54a609402fa504e58863d36846b2498956b930753d3d7a176a8"
   license "MIT"
 
